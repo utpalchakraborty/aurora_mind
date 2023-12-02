@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "aurora-mind"
+version = "0.1.0"
+description = ""
+authors = ["Utpal Chakraborty <utpal.chakraborty@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.35.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+mypy = "^1.7.1"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
